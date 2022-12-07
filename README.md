@@ -1,3 +1,10 @@
+# AWS-Amplify-React-postagram-demo
+
+This repository is a demonstration of a default react app, that is configured to be hosted on aws amplify 
+- the instructions for how this repo was made can be found on the aws workshops website
+  - https://catalog.us-east-1.prod.workshops.aws/workshops/9586a55a-1f61-456c-ace9-b24f505d44a4/en-US
+
+I followed the instructions there and will not update this repo afterwards.
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

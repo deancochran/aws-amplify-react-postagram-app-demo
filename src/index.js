@@ -3,6 +3,22 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { Amplify } from 'aws-amplify'
+import config from './aws-exports'
+Amplify.configure(config)
+
+// - import Amplify from 'aws-amplify';
+// + import { Amplify } from 'aws-amplify'
+
+// - import Analytics from '@aws-amplify/analytics';
+// + import { Analytics } from '@aws-amplify/analytics';
+// // or better
+// + import { Analytics } from 'aws-amplify';
+
+// - import Storage from '@aws-amplify/storage';
+// + import { Storage } from '@aws-amplify/storage';
+// // or better
+// + import { Storage } from 'aws-amplify';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
